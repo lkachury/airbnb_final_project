@@ -50,6 +50,7 @@ The team communicated through a designated Slack Group Channel and pre-determine
     - D3 (Data Driven Document)??
     - SqlAlchemy??
     - SciKitLearn??
+    - SciPy
 
 ### Languages
 - Python 3.7.13
@@ -67,9 +68,13 @@ Team members present a provisional machine learning model that stands in for the
 - Takes in data in from the provisional database 
 - Outputs label(s) for input data
 
-How did you select the model, and why? What roadblocks did you encounter and how did you solve them?
-Random Forest Regression 
-Linear Regression 
+**How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
+
+**Random Forest Regression:**  This model selects the popular answer out of a series of potential options. We will use this model for determining the most popular borough and most frequent rental room type. 
+
+**Linear Regression:** We selected this model to help us answer the correlation analysis questions and to determine if the amount of short-term rentals increases or decreases with the 30-day rental policy. 
+
+**Neural Network:** This model allows us to input a series of variables to provide us with the top 5 frequently rented neighborhoods in each borough. 
 
 
 
