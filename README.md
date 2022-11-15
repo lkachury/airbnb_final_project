@@ -44,6 +44,13 @@ The team communicated through a designated Slack Group Channel and pre-determine
     - Numpy
     - SqlAlchemy
     - SciKitLearn
+    - Numpy??
+    - Requests??
+    - Time and Datetime??
+    - Matplotlib??
+    - D3 (Data Driven Document)??
+    - SqlAlchemy??
+    - SciKitLearn??
     - SciPy
 
 ### Languages
@@ -67,6 +74,35 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - Does the amount of short-term rentals increase or decrease with the 30-day rental policy? <br /> 
 
 ## Machine Learning Model
+Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
+- Takes in data in from the provisional database 
+- Outputs label(s) for input data
+
+**How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
+
+**Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
+
+**Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
+
+## Roadblocks
+We have not identified any roadblocks at this time. However we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+    
+## Correlation analysis
+    between price and room type
+        Target Variable: Price
+        Input Variables: Room Type, borough, number of listings
+    between price and borough
+        Target Variable: Price
+        Input Variables: borough, number of listings
+    between price and neighborhood
+        Target Variable: Price
+        Input Variables: neighborhood, number of listings
+    between price and number of reviews
+        Target Variable: Price
+        Input Variables: number_of_reviews
+    between price and last reviewed date
+        Target Variable: Price
+        Input Variables: last_reviewed_date
 
 **Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
 
