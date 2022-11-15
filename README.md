@@ -70,10 +70,29 @@ Team members present a provisional machine learning model that stands in for the
 
 **How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
 
-**Random Forest Regression:**  This model selects the popular answer out of a series of potential options. We will use this model for determining the most popular borough(s) and most frequent rental room type. 
+**Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
 
-**Linear Regression:** We selected this model to help us answer the correlation analysis questions and to determine if the amount of short-term rentals increases or decreases with the 30-day rental policy. 
+**Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
 
+## Roadblocks
+We have not identified any roadblocks at this time. However we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+    
+## Correlation analysis
+    between price and room type
+        Target Variable: Price
+        Input Variables: Room Type, borough, number of listings
+    between price and borough
+        Target Variable: Price
+        Input Variables: borough, number of listings
+    between price and neighborhood
+        Target Variable: Price
+        Input Variables: neighborhood, number of listings
+    between price and number of reviews
+        Target Variable: Price
+        Input Variables: number_of_reviews
+    between price and last reviewed date
+        Target Variable: Price
+        Input Variables: last_reviewed_date
 
 
 ## Database
