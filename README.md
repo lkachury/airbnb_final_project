@@ -44,13 +44,6 @@ The team communicated through a designated Slack Group Channel and pre-determine
     - Numpy
     - SqlAlchemy
     - SciKitLearn
-    - Numpy??
-    - Requests??
-    - Time and Datetime??
-    - Matplotlib??
-    - D3 (Data Driven Document)??
-    - SqlAlchemy??
-    - SciKitLearn??
     - SciPy
 
 ### Languages
@@ -62,7 +55,7 @@ The team communicated through a designated Slack Group Channel and pre-determine
 The EDA Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Data_Cleaning.ipynb).
 
 Once the csv file was read in, the following data cleaning processes were performed: 
-- Column names were renamed
+- Column names were renamed <br /> ![image](https://user-images.githubusercontent.com/108038989/201822100-c24d621c-262e-4f07-b2a8-5e74df5a97f4.png)
 - Irrelevant columns were dropped
 - Rows with null values were dropped
 
@@ -74,20 +67,16 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - Does the amount of short-term rentals increase or decrease with the 30-day rental policy? <br /> 
 
 ## Machine Learning Model
-Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-- Takes in data in from the provisional database 
-- Outputs label(s) for input data
-
 **How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
 
 **Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
 
 **Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
 
-## Roadblocks
+### Roadblocks
 We have not identified any roadblocks at this time. However we anticipate running into potential roadblocks as we perform the supervised machine learning. 
     
-## Correlation analysis
+### Correlation analysis
     between price and room type
         Target Variable: Price
         Input Variables: Room Type, borough, number of listings
