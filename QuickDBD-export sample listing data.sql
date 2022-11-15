@@ -22,7 +22,7 @@ CREATE TABLE "id" (
     "host_name" string   NOT NULL
 );
 
-CREATE TABLE "neighbourhood" (
+CREATE TABLE "neighborhood" (
     "host_id" int   NOT NULL,
     "host_name" string   NOT NULL,
     "room_type" string   NOT NULL,
