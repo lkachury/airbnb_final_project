@@ -61,9 +61,9 @@ Once the csv file was read in, the following data cleaning processes were perfor
 
 ### Results 
 - **What is the most popular borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063660-fd2f31b8-ba31-488b-9b86-ae47d45e3c9c.png)
-- **What are the Top 5 most frequently rented neighborhoods in each borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063808-c9f18027-4711-4a4f-9ea6-c1e13b206352.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202063908-4b41594b-afa1-424f-a95a-e02287f82588.png)
-- **What is the most popular rental room type?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063962-12cd1665-2de5-42da-8b6c-81ccd6e39392.png)
-- **What are the Top 10 host with the most listings?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064035-7a348ac9-8563-4a21-a651-be01cd090f4b.png)
+- **What are the Top 5 most frequently rented neighborhoods in each borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065757-8b6125c3-351a-4e90-8350-bc41dc225c4f.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202065833-dee3d97e-b843-409f-a301-93c96dcb632e.png)
+- **What is the most popular rental room type?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065923-cd3a5c33-9594-48cb-80ca-1784e4c96fa0.png)
+- **What are the Top 10 host with the most listings?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065964-a6e927e9-6ed0-44ef-ae19-f080633d8e12.png)
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Machine Learning Model
@@ -76,7 +76,7 @@ Once the csv file was read in, the following data cleaning processes were perfor
 ### Roadblocks
 We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
     
-### Correlation analysis
+### Correlation Analysis
 1. Between price and room type
     - Target Variable: Price
     - Input Variables: Room Type, borough, number of listings
