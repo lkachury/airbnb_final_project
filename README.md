@@ -67,14 +67,9 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Machine Learning Model
-**How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
-
 **Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
 
 **Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
-
-### Roadblocks
-We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
     
 ### Correlation Analysis
 1. Between price and room type
@@ -92,6 +87,10 @@ We have not identified any roadblocks at this time. However, we anticipate runni
 5. Between price and last reviewed date
     - Target Variable: Price
     - Input Variables: last_reviewed_date
+
+### Roadblocks
+We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+
 
 ## Database
 The current sql [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
