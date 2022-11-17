@@ -68,12 +68,11 @@ Once the csv file was read in, the following data cleaning processes were perfor
 
 ## Machine Learning Model
 
-- Explanation of model choice, including limitations and benefits:
-
-**Random Forest Regression:**  
+**Explanation of model choice, including limitations and benefits:**
+- Random Forest Regression:
 We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. Limitations TBD
 
-**Linear Regression:** 
+- Linear Regression:
 We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. Limitations TBD
     
 ### Correlation Analysis
@@ -93,13 +92,13 @@ We chose this regression model for the correlation analyses between; price and n
     - Target Variable: Price
     - Input Variables: last_reviewed_date
 
-- Description of preliminary data preprocessing:
+**Description of preliminary data preprocessing:**
 TBD
 
-- Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:
+**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:**
 TBD
 
-- Description of how data was split into training and testing sets:
+**Description of how data was split into training and testing sets:**
 TBD
 
 ### Roadblocks
