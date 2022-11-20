@@ -67,9 +67,13 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Machine Learning Model
-**Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
 
-**Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
+**Explanation of model choice, including limitations and benefits:**
+- Random Forest Regression:
+We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. Limitations TBD
+
+- Linear Regression:
+We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. Limitations TBD
     
 ### Correlation Analysis
 1. Between price and room type
@@ -88,17 +92,50 @@ Once the csv file was read in, the following data cleaning processes were perfor
     - Target Variable: Price
     - Input Variables: last_reviewed_date
 
+**Description of preliminary data preprocessing:**
+TBD
+
+**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:**
+TBD
+
+**Description of how data was split into training and testing sets:**
+TBD
+
 ### Roadblocks
 We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+- An interpretation of the accuracy, precision, and sensitivity of the model should be included with the submission.
+- If you had more time, where would you like to investigate for finer tuning? 
 
 
 ## Database
-The current sql [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
+The current SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
 
+- ERD with relationships since a SQL database was used: 
+TBD
+
+- Database stores static data for use during the project: 
+TBD
+
+- Database interfaces with the project in some format (e.g., scraping updates the database): 
+TBD
+
+- Includes at least two tables:
+TBD
+
+- Includes at least one join using the database language:
+TBD
+
+- Includes at least one connection string (using SQLAlchemy):
+TBD
 
 ## Dashboard
+- Storyboard on a Google Slide(s): TBD
+
+- Description of the tool(s) that will be used to create the final dashboard:
 Findings will be presented in a Tableau dashboard. 
 
+- Description of interactive element(s):
+TBD
 
 ## Conclusion
 - Recommendation for future analysis
