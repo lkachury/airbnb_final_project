@@ -31,9 +31,13 @@ The team communicated through a designated Slack Group Channel and pre-determine
 ## Resources
 ### Data Source 
 - New York City, New York, USA [Inside Airbnb](http://insideairbnb.com/get-the-data/) 
-    - 07-SEP-2022 Listings [csv](https://github.com/lkachury/airbnb_final_project/blob/main/Resources.zip) file
+    - 07-SEP-2022 Listings [csv](https://github.com/lkachury/airbnb_final_project/tree/main/Resources) file
 
-### Software
+### Languages
+- Python 3.7.13
+- JavaScript and HTML
+
+### Software and Tools
 - Conda 4.13.0
 - Jupyter Notebook 
 - Visual Studio Code 1.69
@@ -44,73 +48,94 @@ The team communicated through a designated Slack Group Channel and pre-determine
     - Numpy
     - SqlAlchemy
     - SciKitLearn
-    - Numpy??
-    - Requests??
-    - Time and Datetime??
-    - Matplotlib??
-    - D3 (Data Driven Document)??
-    - SqlAlchemy??
-    - SciKitLearn??
     - SciPy
-
-### Languages
-- Python 3.7.13
-- JavaScript and HTML
 
 ## Exploratory Data Analysis 
 ### Data Cleaning
 The EDA Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Data_Cleaning.ipynb).
 
 Once the csv file was read in, the following data cleaning processes were performed: 
-- Column names were renamed
-- Irrelevant columns were dropped
-- Rows with null values were dropped
+- Column names were renamed: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063386-a4c86c5a-d288-4da8-825c-f4746413cf14.png)
+- Irrelevant columns were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063478-7b608d3a-85cd-4dda-9654-9855f3bd520c.png)
+- Rows with null values were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063538-2aacab98-5282-44e5-9800-80a40a4d8402.png)
 
 ### Results 
-- What is the most popular borough? <br /> 
-- What are the Top 5 most frequently rented neighborhoods in each borough? <br /> 
-- What is the most popular rental room type? <br /> 
-- What are the Top 10 host with the most listings? <br /> 
-- Does the amount of short-term rentals increase or decrease with the 30-day rental policy? <br /> 
+- **What is the most popular borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063660-fd2f31b8-ba31-488b-9b86-ae47d45e3c9c.png)
+- **What are the Top 5 most frequently rented neighborhoods in each borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065757-8b6125c3-351a-4e90-8350-bc41dc225c4f.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202065833-dee3d97e-b843-409f-a301-93c96dcb632e.png)
+- **What is the most popular rental room type?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065923-cd3a5c33-9594-48cb-80ca-1784e4c96fa0.png)
+- **What are the Top 10 host with the most listings?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065964-a6e927e9-6ed0-44ef-ae19-f080633d8e12.png)
+- **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Machine Learning Model
-Team members present a provisional machine learning model that stands in for the final machine learning model and accomplishes the following:
-- Takes in data in from the provisional database 
-- Outputs label(s) for input data
 
-**How did you select the model, and why? What roadblocks did you encounter and how did you solve them?**
+**Explanation of model choice, including limitations and benefits:**
+- Random Forest Regression:
+We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. Limitations TBD
 
-**Random Forest Regression:**  We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. 
-
-**Linear Regression:** We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. 
-
-## Roadblocks
-We have not identified any roadblocks at this time. However we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+- Linear Regression:
+We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. Limitations TBD
     
-## Correlation analysis
-    between price and room type
-        Target Variable: Price
-        Input Variables: Room Type, borough, number of listings
-    between price and borough
-        Target Variable: Price
-        Input Variables: borough, number of listings
-    between price and neighborhood
-        Target Variable: Price
-        Input Variables: neighborhood, number of listings
-    between price and number of reviews
-        Target Variable: Price
-        Input Variables: number_of_reviews
-    between price and last reviewed date
-        Target Variable: Price
-        Input Variables: last_reviewed_date
+### Correlation Analysis
+1. Between price and room type
+    - Target Variable: Price
+    - Input Variables: Room Type, borough, number of listings
+2. Between price and borough
+    - Target Variable: Price
+    - Input Variables: borough, number of listings
+3. Between price and neighborhood
+    - Target Variable: Price
+    - Input Variables: neighborhood, number of listings
+4. Between price and number of reviews
+    - Target Variable: Price
+    - Input Variables: number_of_reviews
+5. Between price and last reviewed date
+    - Target Variable: Price
+    - Input Variables: last_reviewed_date
+
+**Description of preliminary data preprocessing:**
+TBD
+
+**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:**
+TBD
+
+**Description of how data was split into training and testing sets:**
+TBD
+
+### Roadblocks
+We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+- An interpretation of the accuracy, precision, and sensitivity of the model should be included with the submission.
+- If you had more time, where would you like to investigate for finer tuning? 
+
 
 ## Database
-The sql [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
+The current SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
 
+- ERD with relationships since a SQL database was used: 
+TBD
+
+- Database stores static data for use during the project: 
+TBD
+
+- Database interfaces with the project in some format (e.g., scraping updates the database): 
+TBD
+
+- Includes at least two tables:
+TBD
+
+- Includes at least one join using the database language:
+TBD
+
+- Includes at least one connection string (using SQLAlchemy):
+TBD
 
 ## Dashboard
+- Storyboard on a Google Slide(s): TBD
+
+- Description of the tool(s) that will be used to create the final dashboard:
 Findings will be presented in a Tableau dashboard. 
 
+- Description of interactive element(s):
+TBD
 
 ## Conclusion
 - Recommendation for future analysis
