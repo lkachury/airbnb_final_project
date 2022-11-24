@@ -5,7 +5,7 @@
 - [Morifing Koné](https://github.com/Morifingk) 
 - [Lizeth Achury](https://github.com/lkachury)
 
-Link to [Dashboard]() | Link to [Presentation]()
+Link to [Dashboard](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation]()
 
 ## Project Overview
 New York City Airbnb listings data will be used to perform predictive analysis to identify the factors that influences listing price. This topic was selected due to the team's interest in exploring the short-term rental market and the availability of New York City's Airbnb listing data from Inside Airbnb. Inside Airbnb provides data, information, and advocacy on Airbnb's residential communities impact so that communities can understand, decide and control the role of renting residential homes to tourists. 
@@ -58,6 +58,7 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - Column names were renamed: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063386-a4c86c5a-d288-4da8-825c-f4746413cf14.png)
 - Irrelevant columns were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063478-7b608d3a-85cd-4dda-9654-9855f3bd520c.png)
 - Rows with null values were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063538-2aacab98-5282-44e5-9800-80a40a4d8402.png)
+- The "last_review" date column was converted to a count of days since the last review: <br /> 
 
 ### Results 
 - **What is the most popular borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063660-fd2f31b8-ba31-488b-9b86-ae47d45e3c9c.png)
@@ -129,13 +130,13 @@ TBD
 TBD
 
 ## Dashboard
-- Storyboard on a Google Slide(s): TBD
+- Storyboard on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63)
 
 - Description of the tool(s) that will be used to create the final dashboard:
 Findings will be presented in a Tableau dashboard. 
 
-- Description of interactive element(s):
-TBD
+- Description of interactive element(s): 
+Interactive map showing the map of NYC and the density of listings in each borough with the ability to zoom in and out.
 
 ## Conclusion
 - Recommendation for future analysis
