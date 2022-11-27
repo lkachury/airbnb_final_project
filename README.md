@@ -115,19 +115,21 @@ The current SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/m
 TBD
 
 - Database stores static data for use during the project: 
-TBD
+<img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
+
 
 - Database interfaces with the project in some format (e.g., scraping updates the database): 
 TBD
 
 - Includes at least two tables:
-TBD
+<img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png">
 
 - Includes at least one join using the database language:
-TBD
+<img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
+
 
 - Includes at least one connection string (using SQLAlchemy):
-TBD
+<img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
 
 ## Dashboard
 - Storyboard on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63)
