@@ -5,7 +5,7 @@
 - [Morifing Koné](https://github.com/Morifingk) 
 - [Lizeth Achury](https://github.com/lkachury)
 
-Link to [Dashboard](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation]()
+Link to [Dashboard Template](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation]()
 
 ## Project Overview
 New York City Airbnb listings data will be used to perform predictive analysis to identify the factors that influences listing price. This topic was selected due to the team's interest in exploring the short-term rental market and the availability of New York City's Airbnb listing data from Inside Airbnb. Inside Airbnb provides data, information, and advocacy on Airbnb's residential communities impact so that communities can understand, decide and control the role of renting residential homes to tourists. 
@@ -46,6 +46,8 @@ The team communicated through a designated Slack Group Channel and pre-determine
 - Libraries/Dependencies:
     - Pandas
     - Numpy
+    - Datetime
+    - Matplotlib
     - SqlAlchemy
     - SciKitLearn
     - SciPy
@@ -109,27 +111,20 @@ We have not identified any roadblocks at this time. However, we anticipate runni
 
 
 ## Database
-The current SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/QuickDBD-export%20sample%20listing%20data.sql) presents a provisional database. 
+The Database SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
 
-- ERD with relationships since a SQL database was used: 
-TBD
+- [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> TBD
 
-- Database stores static data for use during the project: 
-<img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
-
+- Database stores static data for use during the project: <br /> <img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
 
 - Database interfaces with the project in some format (e.g., scraping updates the database): 
 TBD
 
-- Includes at least two tables:
-<img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png">
+- Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br />
 
-- Includes at least one join using the database language:
-<img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
+- Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
 
-
-- Includes at least one connection string (using SQLAlchemy):
-<img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
+- Includes at least one connection string (using SQLAlchemy): <br /> <img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
 
 ## Dashboard
 - Storyboard on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63)
