@@ -109,7 +109,6 @@ We chose this regression model for the correlation analyses between; price and n
 
 ### Roadblocks
 We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we further perform the supervised machine learning. 
-- An interpretation of the accuracy, precision, and sensitivity of the model should be included with the submission.
 - If you had more time, where would you like to investigate for finer tuning? 
 
 
