@@ -84,28 +84,12 @@ AWS and pgAdmin were used to store the data. The Database SQL schema can be refe
 The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
 
 **Explanation of model choice, including limitations and benefits:**
-- Random Forest Regression:
-We chose this regression model for the correlation analyses between; price and neighborhood, price and room type, and price and borough. The random forest regression uses multiple input variables to determine the target variable. Limitations TBD
 
 - Linear Regression:
-We chose this regression model for the correlation analyses between; price and number of reviews, and price and last reviewed date. This model will use one input variable in order to determine the target variable. Limitations TBD
-    
-### Correlation Analysis
-1. Between price and room type
-    - Target Variable: Price
-    - Input Variables: Room Type, borough, number of listings
-2. Between price and borough
-    - Target Variable: Price
-    - Input Variables: borough, number of listings
-3. Between price and neighborhood
-    - Target Variable: Price
-    - Input Variables: neighborhood, number of listings
-4. Between price and number of reviews
-    - Target Variable: Price
-    - Input Variables: number_of_reviews
-5. Between price and last reviewed date
-    - Target Variable: Price
-    - Input Variables: last_reviewed_date
+This model uses one input variable to determine the target variable. We chose this model to perform correlation analyses between the target variable **price** and the individual target variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitations of this model is that it assumes a linear relationship between the input and target variables and it is sensitive to outliers. 
+
+- Random Forest Regression:
+This model uses multiple input variables to determine the target variable. We chose this model to perform a single correlation analysis between the target variable **price** and the target variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitation of this model is that it can't extrapolate linear trends if the training and prediction inputs differ in their range or distributions.
 
 ### Roadblocks
 We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we further perform the supervised machine learning. 
