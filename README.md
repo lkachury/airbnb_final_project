@@ -1,9 +1,9 @@
-# airbnb_final_project (Needs a Title?)
+# NYC Airbnb Listings (Final Project)
 
 ## Collaborators 
+- [Lizeth Achury](https://github.com/lkachury)
 - [Caitlin Curran](https://github.com/CGC519)
 - [Morifing Koné](https://github.com/Morifingk) 
-- [Lizeth Achury](https://github.com/lkachury)
 
 Link to [Dashboard Template](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation]()
 
@@ -56,7 +56,7 @@ The team communicated through a designated Slack Group Channel and pre-determine
 ### Data Cleaning
 The EDA Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Data_Cleaning.ipynb).
 
-Once the csv file was read in, the following data cleaning processes were performed: 
+The following data cleaning processes were performed: 
 - Column names were renamed: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063386-a4c86c5a-d288-4da8-825c-f4746413cf14.png)
 - Irrelevant columns were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063478-7b608d3a-85cd-4dda-9654-9855f3bd520c.png)
 - Rows with null values were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063538-2aacab98-5282-44e5-9800-80a40a4d8402.png)
@@ -68,6 +68,22 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - **What is the most popular rental room type?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065923-cd3a5c33-9594-48cb-80ca-1784e4c96fa0.png)
 - **What are the Top 10 host with the most listings?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202065964-a6e927e9-6ed0-44ef-ae19-f080633d8e12.png)
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
+
+## Database
+The Database SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
+
+- [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> ![image](https://user-images.githubusercontent.com/108038989/204174833-1daf6c78-1799-487b-9f2e-98cb00749e98.png)
+
+- Database stores static data for use during the project: <br /> <img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
+
+- Database interfaces with the project in some format (e.g., scraping updates the database): 
+TBD
+
+- Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br /> ![image](https://user-images.githubusercontent.com/108038989/204175071-15242b3b-b3e4-4b53-9f9b-c9c3e8249503.png)
+
+- Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
+
+- Includes at least one connection string (using SQLAlchemy): <br /> <img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
 
 ## Machine Learning Model
 The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
@@ -101,22 +117,6 @@ We have not identified any roadblocks at this time. However, we anticipate runni
 - An interpretation of the accuracy, precision, and sensitivity of the model should be included with the submission.
 - If you had more time, where would you like to investigate for finer tuning? 
 
-
-## Database
-The Database SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
-
-- [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> ![image](https://user-images.githubusercontent.com/108038989/204174833-1daf6c78-1799-487b-9f2e-98cb00749e98.png)
-
-- Database stores static data for use during the project: <br /> <img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
-
-- Database interfaces with the project in some format (e.g., scraping updates the database): 
-TBD
-
-- Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br /> ![image](https://user-images.githubusercontent.com/108038989/204175071-15242b3b-b3e4-4b53-9f9b-c9c3e8249503.png)
-
-- Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
-
-- Includes at least one connection string (using SQLAlchemy): <br /> <img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
 
 ## Dashboard
 Dashboard template currently on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63). Findings will be presented in a Tableau dashboard with an interactive map showing the map of NYC and the density of listings in each borough with the ability to zoom in and out.
