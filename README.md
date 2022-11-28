@@ -113,14 +113,14 @@ We have not identified any roadblocks at this time. However, we anticipate runni
 ## Database
 The Database SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
 
-- [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> TBD
+- [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> ![image](https://user-images.githubusercontent.com/108038989/204174833-1daf6c78-1799-487b-9f2e-98cb00749e98.png)
 
 - Database stores static data for use during the project: <br /> <img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
 
 - Database interfaces with the project in some format (e.g., scraping updates the database): 
 TBD
 
-- Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br />
+- Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br /> ![image](https://user-images.githubusercontent.com/108038989/204175071-15242b3b-b3e4-4b53-9f9b-c9c3e8249503.png)
 
 - Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
 
