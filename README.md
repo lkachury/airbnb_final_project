@@ -60,7 +60,7 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - Column names were renamed: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063386-a4c86c5a-d288-4da8-825c-f4746413cf14.png)
 - Irrelevant columns were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063478-7b608d3a-85cd-4dda-9654-9855f3bd520c.png)
 - Rows with null values were dropped: <br /> ![image](https://user-images.githubusercontent.com/108038989/202063538-2aacab98-5282-44e5-9800-80a40a4d8402.png)
-- The "last_review" date column was converted to a count of days since the last review: <br /> 
+- The "last_review" date column was converted to a count of days since the last review: <br /> ![image](https://user-images.githubusercontent.com/108038989/204175258-caaa386b-439e-41ab-9a5a-435d25780e25.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/204175334-dfbb028f-1169-479e-8c9f-f58fb3bdcd43.png)
 
 ### Results 
 - **What is the most popular borough?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202063660-fd2f31b8-ba31-488b-9b86-ae47d45e3c9c.png)
@@ -70,6 +70,7 @@ Once the csv file was read in, the following data cleaning processes were perfor
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Machine Learning Model
+The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
 
 **Explanation of model choice, including limitations and benefits:**
 - Random Forest Regression:
@@ -95,17 +96,8 @@ We chose this regression model for the correlation analyses between; price and n
     - Target Variable: Price
     - Input Variables: last_reviewed_date
 
-**Description of preliminary data preprocessing:**
-TBD
-
-**Description of preliminary feature engineering and preliminary feature selection, including the decision-making process:**
-TBD
-
-**Description of how data was split into training and testing sets:**
-TBD
-
 ### Roadblocks
-We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we perform the supervised machine learning. 
+We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we further perform the supervised machine learning. 
 - An interpretation of the accuracy, precision, and sensitivity of the model should be included with the submission.
 - If you had more time, where would you like to investigate for finer tuning? 
 
@@ -127,13 +119,7 @@ TBD
 - Includes at least one connection string (using SQLAlchemy): <br /> <img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
 
 ## Dashboard
-- Storyboard on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63)
-
-- Description of the tool(s) that will be used to create the final dashboard:
-Findings will be presented in a Tableau dashboard. 
-
-- Description of interactive element(s): 
-Interactive map showing the map of NYC and the density of listings in each borough with the ability to zoom in and out.
+Dashboard template currently on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63). Findings will be presented in a Tableau dashboard with an interactive map showing the map of NYC and the density of listings in each borough with the ability to zoom in and out.
 
 ## Conclusion
 - Recommendation for future analysis
