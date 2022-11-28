@@ -76,14 +76,11 @@ The Database SQL schema can be referenced [here](https://github.com/lkachury/air
 
 - Database stores static data for use during the project: <br /> <img width="832" alt="Selecting all data from main Table" src="https://user-images.githubusercontent.com/104086409/204105669-69173e43-478d-4f86-9bbf-685b900caa80.png">
 
-- Database interfaces with the project in some format (e.g., scraping updates the database): 
-TBD
-
 - Includes at least two tables: <br /> <img width="848" alt="information from the 1st sub table" src="https://user-images.githubusercontent.com/104086409/204105961-aa8171b7-40a6-4b99-94a5-efca3a92a079.png"> <br /> ![image](https://user-images.githubusercontent.com/108038989/204175071-15242b3b-b3e4-4b53-9f9b-c9c3e8249503.png)
 
 - Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
 
-- Includes at least one connection string (using SQLAlchemy): <br /> <img width="942" alt="Creating Main Table, and sub tables Through Jupyter" src="https://user-images.githubusercontent.com/104086409/204105995-5505bf98-479d-49d9-bee8-4b575fbfbaf6.png">
+- Includes at least one connection string (using SQLAlchemy): <br /> ![image](https://user-images.githubusercontent.com/108038989/204177676-f2e268ba-4d56-413e-968f-8bf2196d3d76.png)
 
 ## Machine Learning Model
 The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
