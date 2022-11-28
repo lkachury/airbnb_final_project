@@ -70,7 +70,7 @@ The following data cleaning processes were performed:
 - **Does the amount of short-term rentals increase or decrease with the 30-day rental policy?** <br /> ![image](https://user-images.githubusercontent.com/108038989/202064113-82d543fe-96f4-490e-bae5-2668f383d687.png) <br /> ![image](https://user-images.githubusercontent.com/108038989/202064213-517a336c-55d4-422d-9786-bb20f3710a5c.png)
 
 ## Database
-The Database SQL [schema](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
+The Database SQL schema can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Database_Schema.sql). 
 
 - [ERD](https://github.com/lkachury/airbnb_final_project/blob/main/Listings_QuickDBD.sql) with relationships: <br /> ![image](https://user-images.githubusercontent.com/108038989/204174833-1daf6c78-1799-487b-9f2e-98cb00749e98.png)
 
