@@ -80,8 +80,6 @@ The Database SQL schema can be referenced [here](https://github.com/lkachury/air
 
 - Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
 
-- Includes at least one connection string (using SQLAlchemy): <br /> ![image](https://user-images.githubusercontent.com/108038989/204177676-f2e268ba-4d56-413e-968f-8bf2196d3d76.png)
-
 ## Machine Learning Model
 The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
 
