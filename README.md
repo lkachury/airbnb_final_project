@@ -5,7 +5,7 @@
 - [Caitlin Curran](https://github.com/CGC519)
 - [Morifing Koné](https://github.com/Morifingk) 
 
-Link to [Dashboard Template](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation]()
+Link to [Dashboard Template](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation](https://docs.google.com/presentation/d/1akvqPa9ULUkWUcrPgqRdw_VDkulm2erPaed-lPo8Z5E/edit#slide=id.p)
 
 ## Project Overview
 New York City Airbnb listings data will be used to perform predictive analysis to identify the factors that influences listing price. This topic was selected due to the team's interest in exploring the short-term rental market and the availability of New York City's Airbnb listing data from Inside Airbnb. Inside Airbnb provides data, information, and advocacy on Airbnb's residential communities impact so that communities can understand, decide and control the role of renting residential homes to tourists. 
@@ -48,9 +48,9 @@ The team communicated through a designated Slack Group Channel and pre-determine
     - Numpy
     - Datetime
     - Matplotlib
+    - Psycopg2
     - SqlAlchemy
     - SciKitLearn
-    - SciPy
 
 ## Exploratory Data Analysis 
 ### Data Cleaning
@@ -86,10 +86,10 @@ The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/air
 **Explanation of model choice, including limitations and benefits:**
 
 - Linear Regression:
-This model uses one input variable to determine the target variable. We chose this model to perform correlation analyses between the target variable **price** and the individual target variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitations of this model is that it assumes a linear relationship between the input and target variables and it is sensitive to outliers. 
+This model uses one input variable to determine the target variable. We chose this model to perform correlation analyses between the target variable **price** and the individual input variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitations of this model is that it assumes a linear relationship between the input and target variables and it is sensitive to outliers. 
 
 - Random Forest Regression:
-This model uses multiple input variables to determine the target variable. We chose this model to perform a single correlation analysis between the target variable **price** and the target variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitation of this model is that it can't extrapolate linear trends if the training and prediction inputs differ in their range or distributions.
+This model uses multiple input variables to determine the target variable. We chose this model to perform a single correlation analysis between the target variable **price** and the input variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitation of this model is that it can't extrapolate linear trends if the training and prediction inputs differ in their range or distributions.
 
 ### Roadblocks
 We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we further perform the supervised machine learning. 
