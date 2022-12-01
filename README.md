@@ -5,7 +5,7 @@
 - [Caitlin Curran](https://github.com/CGC519)
 - [Morifing Koné](https://github.com/Morifingk) 
 
-Link to [Dashboard Template](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.p) | Link to [Presentation](https://docs.google.com/presentation/d/1akvqPa9ULUkWUcrPgqRdw_VDkulm2erPaed-lPo8Z5E/edit#slide=id.p)
+Link to [Dashboard](https://lkachury.github.io/airbnb_final_project/) | Link to [Presentation](https://docs.google.com/presentation/d/1akvqPa9ULUkWUcrPgqRdw_VDkulm2erPaed-lPo8Z5E/edit#slide=id.p)
 
 ## Project Overview
 New York City Airbnb listings data will be used to perform predictive analysis to identify the factors that influences listing price. This topic was selected due to the team's interest in exploring the short-term rental market and the availability of New York City's Airbnb listing data from Inside Airbnb. Inside Airbnb provides data, information, and advocacy on Airbnb's residential communities impact so that communities can understand, decide and control the role of renting residential homes to tourists. 
@@ -31,7 +31,7 @@ The team communicated through a designated Slack Group Channel and pre-determine
 ## Resources
 ### Data Source 
 - New York City, New York, USA [Inside Airbnb](http://insideairbnb.com/get-the-data/) 
-    - 07-SEP-2022 Listings [csv](https://github.com/lkachury/airbnb_final_project/tree/main/Resources) file
+    - 07-SEP-2022 Listings [csv](https://github.com/lkachury/airbnb_final_project/tree/main/Resources) file <br /> Each row contains the host's ID and Name, the listing's ID and Name, location (borough, neighborhood, latitude, and longitude), room type, price, minimum nights required, the date the listing was last reviewed, the total number of reviews and number of reviews for the last 12 months, the average reviews per month, the host's calculated listings count, the listing's availability out of the year, and whether the listing has a license.
 
 ### Languages
 - Python 3.7.13
@@ -41,6 +41,7 @@ The team communicated through a designated Slack Group Channel and pre-determine
 - Conda 4.13.0
 - Jupyter Notebook 
 - Visual Studio Code 1.69
+- Amazon Web Services (AWS)[AWS](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-2.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26region%3Dus-east-2%26state%3DhashArgsFromTB_us-east-2_318d8c27809788f6&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=gf6Y-GFZQRFCv8tEDap-x0jKkraF8o47ytdxWAJg0YQ&code_challenge_method=SHA-256)
 - PostgreSQL and pgAdmin 6.8
 - Tableau Public 2022.2
 - Libraries/Dependencies:
@@ -97,7 +98,7 @@ We have not identified any roadblocks at this time. However, we anticipate runni
 
 
 ## Dashboard
-Dashboard template currently on [Google Slides](https://docs.google.com/presentation/d/1Mi3w53aIEOU2Rec6oZsqjYge9q1U1hirpZo4tbMiPi8/edit#slide=id.g198aae88c8c_0_63). Findings will be presented in a Tableau dashboard with an interactive map showing the map of NYC and the density of listings in each borough with the ability to zoom in and out.
+Visualizations were performed in a Tableau [Dashboard](https://lkachury.github.io/airbnb_final_project/).
 
 ## Conclusion
 - Recommendation for future analysis
