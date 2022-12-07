@@ -129,14 +129,14 @@ The above variables were selected due to questions regarding the Exploratory Dat
 
 
 ## Dashboard
-Visualizations were performed in a Tableau [Dashboard](https://lkachury.github.io/airbnb_final_project/).
+Visualizations were performed in Tableau and the dashboard is hosted on a [website](https://lkachury.github.io/airbnb_final_project/):
+<br /> ![image](https://user-images.githubusercontent.com/108038989/206097577-0a7390f3-d96c-4823-bc87-f20cbb7da10c.png)
 
 ## Conclusion
-- Recommendation for future analysis
-- Anything the team would have done differently
-
 ### Roadblocks
 - AWS and pgAdmin database roadblock?
 - The initial Tableau dashboard was built in Tableau Cloud and with the data source connection coming from the AWS-pgAdmin database, both of which are password protected. The team had to change the dashboard to de displayed on Tableau Public and with the data source coming from the cleaned csv instead so that it could be viewed and accessed by all.
 
-If the team had more time, the machine learning models could be improved by performing further feature engineering, bucketing or binning some current features (ie. availability_365), or changing the price predictor to predict price in tens of dollars instead of the exact price (ie. $150 instead of $155) in order to make the problem easier to solve. If time allowed, the team would've added the machine learning models and user input functionality to the dashboard website in order to perform predictions. 
+### Future Recommendations 
+- If the team had more time, the machine learning models could be improved by performing further feature engineering, bucketing or binning some current features (ie. availability_365), or changing the price predictor to predict price in tens of dollars instead of the exact price (ie. $150 instead of $155) in order to make the problem easier to solve. 
+- If time allowed, the team would've added the machine learning models and user input functionality to the dashboard website in order to perform predictions. 
