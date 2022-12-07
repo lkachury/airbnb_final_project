@@ -127,23 +127,23 @@ The above variables were selected due to questions regarding the Exploratory Dat
 - Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096927-cbecf6f2-0dbb-4eea-8ed7-8598821929a8.png)
 
 ### Model Improvement Experiemnts
-Experiment [1](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_1.ipynb), Experiment [2](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_2.ipynb), and Experiment [3](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_3.ipynb) were performed with [Kevin Lee](https://github.com/kevinclee26) as attempts to improve the model's score. 
+Three model improvement experiments were performed with [Kevin Lee](https://github.com/kevinclee26) to attempt to improve the model's score. 
 
-Experiemnt 1: 
+[Experiemnt 1](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_1.ipynb): 
 - Created a new feature by combinining borough and neighborhood and getting the number of listings: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100019-b5f724ea-9917-44a9-b92c-105e741f29ff.png)
 - Utilized one-hot encoding: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100356-6a1e0e72-13cb-4abf-87cd-01f5933e5029.png)
 - The model was created, trained, ran and feature importance was obtained: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100609-c632cf97-19f6-4657-a2f3-1cd090f39776.png)
 - Then the model was repeated with some validation: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100795-100b888f-b508-410e-ae31-583d3a58aeb3.png)
 - Lastly the model was repeated with some scaling: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100887-3046f9ae-56c7-466e-aeca-14f016262bb2.png)
 
-Experiment 2: 
+[Experiment 2](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_2.ipynb): 
+- Created a new feature with the average latitude and longitude: <br />  ![image](https://user-images.githubusercontent.com/108038989/206101402-f91fcfa9-447c-4078-8ae6-052e15418d32.png)
+- A "distance" feature was created and added: <br /> ![image](https://user-images.githubusercontent.com/108038989/206101593-b69b4c4b-0720-413b-8ee3-8d9b876c1d6b.png)
+- The model was created, trained, ran and feature importance was obtained: <br /> ![image](https://user-images.githubusercontent.com/108038989/206101733-e7af2153-8713-4b18-8af1-b4e98922538d.png)
 
-
-
-Experiemnt 3: 
-
-
-
+[Experiemnt 3](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_3.ipynb): 
+- Created a new feature with "host_id" and "number_of_reviews": <br /> ![image](https://user-images.githubusercontent.com/108038989/206102118-fd5407eb-54f8-48b7-b04b-128128441a95.png)  
+- The model was created, trained, ran and feature importance was obtained: <br /> ![image](https://user-images.githubusercontent.com/108038989/206102220-2523f3f0-8c77-4f1e-83b1-59db8062799e.png)
 
 ## Dashboard
 Visualizations were performed in Tableau and the dashboard is hosted on a [website](https://lkachury.github.io/airbnb_final_project/):
