@@ -25,9 +25,6 @@ Questions the team hopes to answer with the data:
     - listing price and number of reviews
     - listing price and last reviewed date 
 
-## Communication Protocols 
-The team communicated through a designated Slack Group Channel and pre-determined meeting times. 
-
 ## Resources
 ### Data Source 
 - New York City, New York, USA [Inside Airbnb](http://insideairbnb.com/get-the-data/) 
@@ -152,7 +149,7 @@ Visualizations were performed in Tableau and the dashboard is hosted on a [websi
 ## Conclusion
 ### Roadblocks
 - AWS and pgAdmin database roadblock?
-- The initial Tableau dashboard was built in Tableau Cloud and with the data source connection coming from the AWS-pgAdmin database, both of which are password protected. The team had to change the dashboard to de displayed on Tableau Public and with the data source coming from the cleaned csv instead so that it could be viewed and accessed by all.
+- The initial Tableau dashboard was built in Tableau Cloud and with the data source connection coming from the AWS-pgAdmin database, both of which are password protected. The team had to change the dashboard to de displayed on Tableau Public and with the data source coming from the cleaned csv file instead so that it could be viewed and accessed by all. <br /> ![db3](https://user-images.githubusercontent.com/108038989/206313867-e01f5864-05ec-4a31-bff4-4c342be1efe4.png) <br /> ![db2](https://user-images.githubusercontent.com/108038989/206313910-63fe0a19-8eda-4b15-9b89-2e77e084d059.png)
 
 ### Future Recommendations 
 - If the team had more time, the machine learning models could be improved by performing further feature engineering, bucketing or binning some current features (ie. availability_365), or changing the price predictor to predict price in tens of dollars instead of the exact price (ie. $150 instead of $155) in order to make the problem easier to solve. 
