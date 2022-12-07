@@ -126,6 +126,23 @@ The above variables were selected due to questions regarding the Exploratory Dat
 - Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096871-c8130317-7886-42ce-a3ae-f9b192534d0e.png)
 - Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096927-cbecf6f2-0dbb-4eea-8ed7-8598821929a8.png)
 
+### Model Improvement Experiemnts
+Experiment [1](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_1.ipynb), Experiment [2](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_2.ipynb), and Experiment [3](https://github.com/lkachury/airbnb_final_project/blob/readme_updates/exp_3.ipynb) were performed with [Kevin Lee](https://github.com/kevinclee26) as attempts to improve the model's score. 
+
+Experiemnt 1: 
+- Created a new feature by combinining borough and neighborhood and getting the number of listings: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100019-b5f724ea-9917-44a9-b92c-105e741f29ff.png)
+- Utilized one-hot encoding: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100356-6a1e0e72-13cb-4abf-87cd-01f5933e5029.png)
+- The model was created, trained, ran and feature importance was obtained: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100609-c632cf97-19f6-4657-a2f3-1cd090f39776.png)
+- Then the model was repeated with some validation: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100795-100b888f-b508-410e-ae31-583d3a58aeb3.png)
+- Lastly the model was repeated with some scaling: <br /> ![image](https://user-images.githubusercontent.com/108038989/206100887-3046f9ae-56c7-466e-aeca-14f016262bb2.png)
+
+Experiment 2: 
+
+
+
+Experiemnt 3: 
+
+
 
 
 ## Dashboard
