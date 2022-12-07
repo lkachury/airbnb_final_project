@@ -38,10 +38,11 @@ The team communicated through a designated Slack Group Channel and pre-determine
 - JavaScript and HTML
 
 ### Software and Tools
+- GitHub
 - Conda 4.13.0
 - Jupyter Notebook 
 - Visual Studio Code 1.69
-- Amazon Web Services (AWS)[AWS](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-2.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26region%3Dus-east-2%26state%3DhashArgsFromTB_us-east-2_318d8c27809788f6&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=gf6Y-GFZQRFCv8tEDap-x0jKkraF8o47ytdxWAJg0YQ&code_challenge_method=SHA-256)
+- Amazon Web Services [AWS](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fus-east-2.console.aws.amazon.com%2Fconsole%2Fhome%3FhashArgs%3D%2523%26isauthcode%3Dtrue%26region%3Dus-east-2%26state%3DhashArgsFromTB_us-east-2_318d8c27809788f6&client_id=arn%3Aaws%3Asignin%3A%3A%3Aconsole%2Fcanvas&forceMobileApp=0&code_challenge=gf6Y-GFZQRFCv8tEDap-x0jKkraF8o47ytdxWAJg0YQ&code_challenge_method=SHA-256)
 - PostgreSQL and pgAdmin 6.8
 - Tableau Public 2022.2
 - Libraries/Dependencies:
@@ -92,9 +93,22 @@ This model uses one input variable to determine the target variable. We chose th
 - Random Forest Regression:
 This model uses multiple input variables to determine the target variable. We chose this model to perform a single correlation analysis between the target variable **price** and the input variables of **borough**, **neighborhood**, **room_type**, **number_of_reviews**, and **days_since_last_review**. The main limitation of this model is that it can't extrapolate linear trends if the training and prediction inputs differ in their range or distributions.
 
-### Roadblocks
-We have not identified any roadblocks at this time. However, we anticipate running into potential roadblocks as we further perform the supervised machine learning. 
-- If you had more time, where would you like to investigate for finer tuning? 
+The above variables were selected due to questions regarding the Exploratory Data Analysis and after plotting scatter plots to visually inspect the relationship between price and these variables. One feature that was engineered by the team was "days_since_last_review." This feature was a conversion of the date in the "last_review" column to a count of days since the last review from 07-SEP-2022, which is the date the listings report was collected. 
+
+### Linear Regression Between Room Type and Price
+
+### Linear Regression Between Borough and Price
+
+### Linear Regression Between Neighborhood and Price
+
+### Linear Regression Between Number of Reviews and Price
+
+### Linear Regression Between Days Since Last Review and Price
+
+### 
+
+
+
 
 
 ## Dashboard
@@ -103,3 +117,9 @@ Visualizations were performed in a Tableau [Dashboard](https://lkachury.github.i
 ## Conclusion
 - Recommendation for future analysis
 - Anything the team would have done differently
+
+### Roadblocks
+- AWS and pgAdmin database roadblock?
+- The initial Tableau dashboard was built in Tableau Cloud and with the data source connection coming from the AWS-pgAdmin database, both of which are password protected. The team had to change the dashboard to de displayed on Tableau Public and with the data source coming from the cleaned csv instead so that it could be viewed and accessed by all.
+
+If the team had more time, the machine learning models could be improved by performing further feature engineering, bucketing or binning some current features (ie. availability_365), or changing the price predictor to predict price in tens of dollars instead of the exact price (ie. $150 instead of $155) in order to make the problem easier to solve. If time allowed, the team would've added the machine learning models and user input functionality to the dashboard website in order to perform predictions. 
