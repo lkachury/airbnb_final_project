@@ -82,7 +82,7 @@ AWS and pgAdmin were used to store the data. The Database SQL schema can be refe
 
 - Includes at least one join using the database language: <br /><img width="1002" alt="Combining Tables in sql " src="https://user-images.githubusercontent.com/104086409/204105980-0821e798-b772-485b-a6ab-9649964f808c.png">
 
-## Machine Learning Model
+## Machine Learning Models
 The ML Jupyter Notebook can be referenced [here](https://github.com/lkachury/airbnb_final_project/blob/main/Machine_Learning.ipynb).
 
 **Explanation of model choice, including limitations and benefits:**
