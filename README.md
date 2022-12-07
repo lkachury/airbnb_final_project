@@ -103,31 +103,28 @@ The above variables were selected due to questions regarding the Exploratory Dat
 
 ### Linear Regression Between Borough and Price
 ![image](https://user-images.githubusercontent.com/108038989/206095782-98217892-7075-4e43-8cf8-972619b15ed6.png)
-- Data preprocessing and spliting into training and testing sets: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096066-fec23edc-1e3f-4937-92a9-f8f86ad3ac15.png)
-- Model training: <br />
+- Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096066-fec23edc-1e3f-4937-92a9-f8f86ad3ac15.png)
 - Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096189-44322238-48f1-480c-9e7f-3aa75133b603.png)
 
 ### Linear Regression Between Neighborhood and Price
 ![image](https://user-images.githubusercontent.com/108038989/206095893-fdc2a849-c822-49e8-91f3-387d8eb3445d.png)
-- Data preprocessing and spliting into training and testing sets: <br />
-- Model training: <br />
-- Model score: <br /> 
+- Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096433-bcce19b9-4049-4d8e-a880-ab0e42228b6d.png)
+- Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096513-50fb0a1e-4a8b-4db3-b007-65b5783119b9.png)
 
 ### Linear Regression Between Number of Reviews and Price
 ![image](https://user-images.githubusercontent.com/108038989/206095934-340d0fc8-9138-4d98-b668-e4e882a6e6d9.png)
-- Data preprocessing and spliting into training and testing sets: <br />
-- Model training: <br />
-- Model score: <br /> 
+- Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096578-d670ca02-9e71-46e1-a450-ad5338b870e2.png)
+- Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096642-c99efb25-0a1e-42f0-920b-d8cdd610ada2.png)
 
 ### Linear Regression Between Days Since Last Review and Price
 ![image](https://user-images.githubusercontent.com/108038989/206095983-ebc52f77-67cf-406b-b679-dd4cb407b234.png)
-- Data preprocessing and spliting into training and testing sets: <br />
-- Model training: <br />
-- Model score: <br /> 
+- Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096685-7c7a182f-40e1-45d5-8d35-42b5b9c509dc.png)
+- Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096731-2801d791-fa95-4816-ac94-c599330babd3.png)
 
-### 
-
-
+### Random Forest Regression between Price and Borough, Neighborhood, Room Type, Number of Reviews, and Days Since Last Review
+![image](https://user-images.githubusercontent.com/108038989/206096973-76645f7b-5bf3-4d51-bc0c-1d2d55e6d6f4.png)
+- Data preprocessing and spliting into training and testing sets and model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096871-c8130317-7886-42ce-a3ae-f9b192534d0e.png)
+- Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206096927-cbecf6f2-0dbb-4eea-8ed7-8598821929a8.png)
 
 
 
