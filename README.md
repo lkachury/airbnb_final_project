@@ -96,11 +96,10 @@ This model uses multiple input variables to determine the target variable. We ch
 The above variables were selected due to questions regarding the Exploratory Data Analysis and after plotting scatter plots to visually inspect the relationship between price and these variables. One feature that was engineered by the team was "days_since_last_review." This feature was a conversion of the date in the "last_review" column to a count of days since the last review from 07-SEP-2022, which is the date the listings report was collected. 
 
 ### Linear Regression Between Room Type and Price
+![image](https://user-images.githubusercontent.com/108038989/206095147-385c6655-2458-4f78-8e86-e48fdd60f3f9.png)
 - Data preprocessing and spliting into training and testing sets: <br /> ![image](https://user-images.githubusercontent.com/108038989/206094897-f075a596-ce54-4405-bd0c-b6af7b1f7454.png)
 - Model training: <br /> ![image](https://user-images.githubusercontent.com/108038989/206095063-aede99e1-d4ed-4f4d-8c6f-76337ca5ed7d.png)
 - Model score: <br /> ![image](https://user-images.githubusercontent.com/108038989/206095223-2786babf-001d-4d47-8c44-9d91ebf9423f.png)
-
-![image](https://user-images.githubusercontent.com/108038989/206095147-385c6655-2458-4f78-8e86-e48fdd60f3f9.png)
 
 ### Linear Regression Between Borough and Price
 
