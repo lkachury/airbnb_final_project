@@ -148,7 +148,7 @@ Visualizations were performed in Tableau and the dashboard is hosted on a [websi
 
 ## Conclusion
 ### Roadblocks
-- AWS and pgAdmin database roadblock?
+- Connecting the AWS database to PostgreSQL/pgAdmin so that the team would have access to it in order to perform the Machine Learning models. 
 - The initial Tableau dashboard was built in Tableau Cloud and with the data source connection coming from the AWS-pgAdmin database, both of which are password protected. The team had to change the dashboard to de displayed on Tableau Public and with the data source coming from the cleaned csv file instead so that it could be viewed and accessed by all. <br /> ![db3](https://user-images.githubusercontent.com/108038989/206313867-e01f5864-05ec-4a31-bff4-4c342be1efe4.png) <br /> ![db2](https://user-images.githubusercontent.com/108038989/206313910-63fe0a19-8eda-4b15-9b89-2e77e084d059.png)
 
 ### Future Recommendations 
